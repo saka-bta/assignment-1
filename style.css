@@ -8,6 +8,13 @@ h1{
 h2{
     font-size: 40px;
 }
+#top-banner{
+    font-weight: bolder;
+    padding-left: 40px;
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
 .flexible-container{
     display: flex;
     margin-bottom: 50px;
@@ -22,11 +29,6 @@ h2{
 .half-width img{
     width: 80%;
 }
-.top-banner{
-    border-left: 5px solid;
-    border-image: linear-gradient(salmon, tomato);
-    border-image-slice: 1;
-}
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
@@ -34,4 +36,36 @@ h2{
     color: white;
     font-weight: 700;
     border-radius: 5px;
+}
+.mission-area{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.mission{
+    background-color: paleturquoise;
+    width: 23%;
+    border: 10px;
+}
+.vission{
+    background-color: palevioletred;
+    width: 23%;
+}
+.goals{
+    background-color: peru;
+    width: 23%;
+}
+.mission-area-display-flex{
+    display: flex;
+    margin-bottom: 50px;
+    width: 100%;
+    font-size: small;
+    text-justify: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    
+}
+.mission-area-display-flex img{
+    width: 30%;
 }
